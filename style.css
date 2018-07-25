@@ -1,0 +1,138 @@
+* , ::before, ::after {
+    box-sizing: border-box;
+}
+
+header {
+    background-image: url(forblog2.jpg);
+    height: 532px;
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+    color: white;
+    margin-bottom: 50px;
+}
+
+.centered {
+    position: absolute;
+    top: 30%;
+    transform: translateY(-50);
+    color: white;
+    width: 100%;
+    text-align: center;
+}
+
+.centered-horizontal {
+    max-width: 1140px;
+    margin: 0 auto; 
+}
+
+header h1 {
+    font-weight: 800;
+    font-size: 80px;
+}
+
+html, body {
+    height: 100%;
+    font-family: 'Open Sans','Helvetica Neue',Helvetica,Arial,sans-serif;
+    margin: 0;
+}
+
+h1,h2,h3 {
+    font-weight: 800;
+    font-family: 'Open Sans','Helvetica Neue',Helvetica,Arial,sans-serif;
+}
+
+h3 {
+    font-size: 1.75rem;
+}
+
+div {
+    display: block;
+}
+
+nav {
+    position: fixed;
+    z-index: 1;
+    background-color: black;
+    opacity: 0.5;
+    width: 100%;
+}
+
+nav li a {
+    z-index: 1;
+    text-decoration: none;
+    color: white;
+}
+
+nav li {
+    display: inline-block;
+    padding: 20px 10px 20px 10px;
+    font-weight: 800;
+    font-size: 12px;
+    color: white;
+}
+
+nav li:first-child {
+    font-weight: 800;
+    font-size: 20px;
+    padding: 20px 10px 20px 10px;
+}
+
+.container-nav {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+.container {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.col-lg-8 a {
+    text-decoration: none;
+    color: black;
+}
+
+.post-preview {
+    max-width:730px;
+    margin-left: auto;
+    margin-right: auto; 
+}
+.post-preview>a>.post-title {
+    font-size: 30px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+@media only screen and (min-width: 768px){
+    .post-preview>a>.post-title {
+        font-size: 36px;
+    }
+}
+
+@media (min-width:786px) {
+    .col-md-10 {
+        max-width: 83.333333%;
+    }
+}
+
+@media (min-width:992px){
+    .col-lg-8 {
+        max-width: 66.666667%;
+    }
+}
+
+.ml-auto, .mx-auto {
+    margin-left: auto!important;
+}
+.mr-auto, .mx-auto {
+    margin-right: auto!important;
+}
+
+.post-preview>a>.post-subtitle {
+    font-weight: 300;
+    margin:30px 0;
+}
+
