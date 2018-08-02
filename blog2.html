@@ -4,26 +4,32 @@
     <meta charset="UTF-8">
     <link rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,800" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
 </head>
 <body>
-    <nav>
-        <ul class="container-nav">
-            <li>
-                <a href="blog2.html">HOME</a> 
-            </li>
-            <li style="float: right;">
-                <a href="box model.html">SAMPLE BLOG</a> 
-            </li>
-            <li style="float: right;">
-                <a href="table.html">COURSES</a> 
-            </li>
-            <li style="float: right;">
-                <a href="https://github.com/irukandj">CONTACT</a>
-            </li>
-            <li style="float: right;">
-                <a href="float.html">ABOUT</a>
-            </li>
-        </ul>
+    <nav class="navbar navbar-expand-lg navbar-dark" id="nav">
+        <div class="container">
+            <a class="navbar-brand" href="#" id="HOME-button">HOME</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarColor01">
+                <ul class="navbar-nav ml-auto" style="opacity: 1;">
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">ABOUT</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://github.com/irukandj">CONTACT</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="table.html">COURSES</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="newblog.html">SAMPLE BLOG</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
     </nav>
     <header>
         <div class="centered">
@@ -34,14 +40,14 @@
     </header>
     <div class="container">
         <div class="col-lg-8 col-md-10 mx-auto">
-            <div class="post-preview">
-                <a href="box model.html">
-                <h2 class="post-title">Почему сейчас самое время стать программистом в Узбекистане,а так же плюсы фрилансинга</h2>
-                <h3 class="post-subtitle">Хотите узнать почему сейчас самое время научиться программировать? В нашей статье мы опишем 5 причин по которым это стоит сделать именно в Узбекистане.</h3>
+            <div class="post-preview" id="post-preview">
+                <a href="newblog.html">
+                    <h2 class="post-title">Почему сейчас самое время стать программистом в Узбекистане,а так же плюсы фрилансинга</h2>
+                    <h3 class="post-subtitle">Хотите узнать почему сейчас самое время научиться программировать? В нашей статье мы опишем 5 причин по которым это стоит сделать именно в Узбекистане.</h3>
                 </a>
                 <hr>
             </div>
-            <div class="post-preview">
+            <div class="post-preview" id="post-preview">
                 <a href="position.html">
                     <h2 class="post-title">Позиционирование в css</h2>
                     <h3 class="post-subtitle">В этой работе я покажу вам позиционирование 4х картинок с котом в разные углы квадрата</h3>
@@ -50,5 +56,8 @@
             </div>
         </div>
     </div>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
 </body>
 </html>

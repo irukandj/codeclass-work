@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,800" rel="stylesheet">
+    <style>
+        body,html {
+            font-family: 'Open Sans','Helvetica Neue',Helvetica,Arial,sans-serif;
+            font-weight: 800;
+        }
+        p {
+            font: 26px arial,helvetica,sans-serif;
+        }
+        h2 {
+            font: 52px bold Arial,Helvetica,sans-serif;
+            margin-top: 0;
+        }
+        header {
+            width: 100%;
+            height: 500px;
+            background-image: url(forabout.jpg);
+            background-size: cover;
+            background-position: center center;
+            margin: 0;
+        }
+        h1 {
+            padding-top: 200px;
+            color: whitesmoke;
+            font: bold 54px Arial,Helvetica,sans-serif;
+            letter-spacing: 5px;
+        }
+        #link{
+            text-decoration: none;
+            color: whitesmoke;
+            font: 26px arial,helvetica,sans-serif;
+        }
+        .method {
+            margin-left: 100px;
+            margin-right: 100px;
+            text-align: center;
+        }
+        #footer {
+            margin-top: 50px;
+            background-color: black;
+            color: white;
+        }
+        #footer > p {
+            padding: 0;
+            margin: 0;
+            font: 20px arial,helvetica,sans-serif;
+        }
+        #nav {
+            position: fixed;
+            background-color: black;
+            opacity: 0.6;
+            width: 100%;
+            padding-left: 100px;
+            padding-right: 100px;
+            padding: 15px;
+            letter-spacing: 2px;
+        }
+        #nav li {
+            font-weight: 800;
+            font-size: 12px;
+            font-family: 'Open Sans','Helvetica Neue',Helvetica,Arial,sans-serif;
+        }
+        #HOME-button {
+            font-weight: 800;
+            font-size: 20px;
+            font-family: 'Open Sans','Helvetica Neue',Helvetica,Arial,sans-serif;
+        }
+        .container-content {
+            display: table;
+        }
+        
+        
+        #content-inner {
+            display: table-cell;
+            vertical-align: middle;
+            width: 50%;
+            padding: 0 60px 0 60px;
+        }
+        #bgc-content {
+            background-color: rgb(93, 54, 36);
+            color: white;
+        }
+        .image-1 {
+            background-image: url(https://i.imgur.com/qTtMTxM.png);
+            background-position: left;
+            background-size: cover;
+            padding-bottom: 50%;
+        }
+        .image-2 {
+            background-image: url(https://i.imgur.com/2LmRQqs.jpg);
+            background-position: center;
+            background-size: cover;
+            padding-bottom: 50%;
+        }
+        .image-3 {
+            background-image: url(https://i.imgur.com/yOS3fl3.png);
+            background-position: center;
+            background-size: cover;
+            padding-bottom: 50%;
+        }
+        @media (max-width:1450px) {
+            .image-inner {
+            display: table-cell;
+            width: 50%;
+            max-height: 50%;
+        }
+        }
+        @media (max-width: 930px) {
+            #content-inner,
+            .image-inner {
+                display: block;
+                width: 100%;
+            }
+        }
+        @media (max-width:786px) {
+            div.method {
+                margin: 0;
+            }
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark" id="nav">
+        <div class="container">
+            <a class="navbar-brand" href="#" id="HOME-button">HOME</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarColor01">
+                <ul class="navbar-nav ml-auto" style="opacity: 1;">
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://github.com/irukandj">CONTACT</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="table.html">COURSES</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="box model.html">SAMPLE BLOG</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <header class="text-center">
+        <h1>О нас</h1>
+        <a id="link" href="blog2.html">
+            <p>← Другие статьи блога</p>
+        </a>
+    </header><br>
+    <div class="method">
+        <h2>Метод CodeClass</h2>
+        <p>На сегодняшний день спрос на квалифицированных программистов высок как никогда. В итоге растет конкуренция среди компаний за привлечение грамотных специалистов с актуальным набором навыков. Вместе с тем сама сфера IT достаточно динамичная и новичку достаточно сложно соориентироваться в этой среде без помощи наставника. В Codeclass ты получишь не только необходимые знания и навыки разработки веб-сайтов и приложений, но и незаменимую помощь как от инструкторов так и от своих сокурсников. Наша уникальная программа эффективно совмещает в себе обучение незаменимым навыкам программирования, практике написания реальных веб-сайтов и приложений, а также умение работать в команде.
+        </p>
+    </div><br>
+    <div class="container-content" id="bgc-content">
+        <div class="image-inner image-1">
+        </div>
+        <div id="content-inner">
+            <h2>Качественное образование</h2>   
+            <p>Наша программа составлена командой специалистов с многолетним опытом и включает в себя как теорию так и практические задания. Технологии и языки которые мы используем в наших образовательных программах тщательно отбираются исходя из их актуальности и востребованности.</p>
+        </div>
+    </div>
+    <div class="container-content">
+        <div id="content-inner">
+            <h2>Работа в команде</h2>
+            <p>При работе над практическими заданиями ты можешь опираться на помощь как инструктора так и других студентов. В работе над проектами наши студенты разбиваются на пары, что делает обучение более эффективным. Также любой из наших студентов имеет возможность проверить код своего сокурсника через сервис GitHub.</p>
+        </div>
+        <div class="image-inner image-2">
+        </div>
+    </div>
+    <div class="container-content" id="bgc-content">
+        <div class="image-inner image-3">
+        </div>
+        <div id="content-inner">
+            <h2>Новые возможности</h2>
+            <p>Вся наша программа составлена таким образом чтобы подготовить тебя к твоей новой работе. Вдобавок к фундаментальным знаниям и востребованным навыкам к окончанию одной из программ у тебя будет портфолио работ, которые ты сможешь показать потенциальному работодателю.</p>
+        </div>
+    </div>
+    <footer id="footer" class="text-center">
+        <p>©2018 Company Name. All rights reserved.</p>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+</body>
+</html>
+</html>
