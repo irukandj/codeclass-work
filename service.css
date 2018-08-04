@@ -1,0 +1,107 @@
+body {
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+}
+.masthead {
+    height: 100vh;
+    background-image: url(forservice.jpg);
+    background-size: cover;
+    background-position: center center;
+    min-height: 30rem;
+    position: relative;
+    display: table;
+    width: 100%;
+    padding-top: 8rem;
+    padding-bottom: 8rem;
+}
+h1 {
+    font-size: 5.5rem;
+    font-weight: bold;
+}
+h3 {
+    font-weight: bold;
+    font-style: italic;
+}
+#header-content {
+    margin-top: auto;
+    margin-bottom: auto;
+}
+@media (min-width: 992px){
+.masthead {
+    height: 100vh;
+}
+}
+#btn-one:hover {
+    color:white;
+    background-color: #c33500;
+    border-color: #c33500;
+}
+.btn {
+    border-radius: 15px;
+}
+#btn-one {
+background-color: orangered;
+border-color: orangered;
+color: #fff;
+font-weight: 700;
+border-radius: 15px;
+}
+.btn-xl {
+    padding: 1.25rem 2.5rem;
+}
+.serviceBox{ text-align: center; }
+.serviceBox .service-icon{
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    line-height: 100px;
+    border-radius: 50%;
+    background: orangered;
+    margin-bottom: 25px;
+    font-size: 40px;
+    color: #fff;
+    transition: all 0.5s ease 0s;
+}
+.serviceBox:hover .service-icon{ transform: scale(1.1); }
+.serviceBox .title{
+    display: block;
+    font-size: 20px;
+    font-weight: 700;
+    color: #471437;
+    text-transform: uppercase;
+    margin: 0 0 12px 0;
+    position: relative;
+}
+
+.serviceBox .title:before,
+.serviceBox .title:after{
+    content: "";
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    background: orangered;
+    position: absolute;
+    top: 40%;
+    left: 40%;
+    opacity: 0;
+    transition: all 0.5s ease 0s;
+}
+.serviceBox .title:after{
+    left: auto;
+    right: 40%;
+}
+.serviceBox .description{
+    font-size: 15px;
+    letter-spacing: 1px;
+    line-height: 27px;
+    color: #6f6f6f;
+}
+@media only screen and (max-width:990px){
+    .serviceBox{ margin-bottom: 30px; }
+}
+.content-section {
+    padding-top: 7.5rem;
+    padding-bottom: 7.5rem;
+}
