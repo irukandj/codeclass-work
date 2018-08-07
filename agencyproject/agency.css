@@ -1,0 +1,290 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Varela Round', sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+p {
+    margin: 0 0 10px;
+}
+
+h1 {
+    font-size: 54px;
+}
+
+h2 {
+    font-size: 36px
+}
+
+h3 {
+    font-size: 21px;
+}
+.section {
+    position: relative;
+}
+.text-center .title:after {
+    margin: 20px auto 0px;
+}
+
+a:hover, a:focus {
+    text-decoration: none;
+    outline: none;
+    opacity: 0.8;
+    color: #6195FF;
+}
+
+.title:after {
+    content: "";
+    display: block;
+    height: 4px;
+    width: 40px;
+    background-color: #6195FF;
+    margin-top: 20px;
+    text-align: center;
+}
+
+h1,
+h2,
+h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    margin-top: 0px;
+    margin-bottom: 20px;
+    color: #10161A;
+}
+
+header {
+    width: 100%;
+    height: 100Vh;
+    position: relative;
+    background-image: url(foragency.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center center;
+}
+.overlay {
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    opacity: .8;
+    background: #1C1D21;
+}
+
+.home-content h1 {
+    text-transform: uppercase;
+}
+
+.white-text {
+    color: #FFF;
+}
+
+.home-content button {
+    margin-top: 20px;
+}
+
+.main-btn,
+.white-btn {
+    display: inline-block;
+    padding: 10px 35px;
+    margin: 3px;
+    border: 2px solid transparent;
+    border-radius: 3px;
+    transition: 0.2s opacity;
+}
+
+.white-btn {
+    color: #10161A ;
+    background-color: white;
+}
+
+.main-btn {
+    background: #6195FF;
+    color: #FFF;
+}
+
+.white-btn:hover,
+.main-btn:hover {
+    opacity: 0.8;
+}
+
+.section-header {
+    margin-bottom: 60px;
+}
+.md-padding {
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
+.serviceBox{
+    position: relative;
+    text-align: center;
+    padding: 40px 20px;
+    border: 1px solid #EEE;
+    margin: 15px 0px;
+    box-sizing: border-box;
+}
+.fa {
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+}
+.serviceBox i{
+    margin-bottom: 20px;
+    font-size: 36px;
+    color: #6195FF;
+}
+
+.serviceBox p{
+    font-size: 15px;
+    color: #999;
+    line-height: 27px;
+    margin: 0;
+    padding: 0 0 10px;
+}
+.serviceBox:hover:after {
+    width: 100%;
+}
+
+.serviceBox:after {
+    content: "";
+    background-color: #1C1D21;
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    width: 0%;
+    z-index: -1;
+    -webkit-transition: 0.2s width;
+    transition: 0.6s width;
+}
+
+.serviceBox:hover h3 {
+    color: white;
+}
+
+.home-wrapper {
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: center;
+}
+
+@media (min-width: 992px){
+    .col-md-offset-1 {
+        margin-left: 8.33333333%;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .main-btn, .white-btn {
+        padding: 8px 22px;
+        font-size: 14px;
+    }
+}
+
+.bg-grey {
+    background-color: #FAFAFA;
+    border-top: 1px solid #EEE;
+    border-bottom: 1px solid #EEE;
+}
+
+.img-responsive {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+.work {
+    position: relative;
+    padding: 20px;
+}
+
+.work .overlay {
+    background: #1C1D21;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    opacity: 0;
+    -webkit-transition: 0.2s opacity;
+    transition: 0.2s opacity;
+    -webkit-transition-delay: 0.2s;
+    transition-delay: 0.2s;
+}
+
+.work .work-content span {
+    display: block;
+    text-transform: uppercase;
+    transform: translateY(100%);
+    opacity: 0;
+    color: #6195FF;
+    margin-bottom: 5px;
+    transition: 0.2s all;
+    transition-delay: 0.2s;
+}
+
+.work:hover .work-content span {
+    transform: translateY(0%);
+    opacity: 1;
+    transition-delay: 0s;
+}
+
+.work .work-content h3 {
+    transform: translateY(100%);
+    opacity: 0;
+    color: #FFF;
+    margin-bottom: 10px;
+    transition: 0.2s all;
+    transition-delay: 0.1s;
+}
+
+.work:hover .work-content h3 {
+    transform: translateY(0%);
+    opacity: 1;
+    transition-delay: 0.1s;
+}
+
+.work .work-link {
+    text-align: center;
+    margin-top: 20px;
+    opacity: 0;
+    transition: 0.2s opacity;
+}
+
+.work .work-link a {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    background-color: #6195FF;
+    color: #FFF;
+    line-height: 50px;
+    text-align: center;
+}
+
+.work .work-content {
+    position: absolute;
+    left: 25px;
+    right: 25px;
+    top: 50%;
+    text-align: center;
+    transform: translateY(-50%);
+}
+
+.work:hover .work-link {
+    transition-delay: 0.2s;
+    opacity: 1;
+}
+
+.work:hover .overlay {
+    transition-delay: 0s;
+    opacity: 0.8;
+}
