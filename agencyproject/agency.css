@@ -383,9 +383,9 @@ header {
 
 .carousel-indicators .active {
     background-color: #6195FF;
-    height: 10px;
     border-radius: 10px;
-    transition: height 0.5s;
+    margin-top: -10px;
+    transition: margin-top 0.8s;
     
 }
 
