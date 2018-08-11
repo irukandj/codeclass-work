@@ -520,3 +520,34 @@ header {
 .pricing:hover .price h3 span {
     color: #fff;
 }
+
+/* our team carousel*/
+
+#our-team-carousel {
+    background-image: url(background3.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.first-slide , .second-slide {
+    margin: 0;
+}
+
+.mb {
+    margin-bottom: 20px;
+    position: relative;
+    padding-left: 90px;
+    
+}
+
+.carousel-img-1 , .carousel-img-2 {
+    border-radius: 999px;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.mb h3 {
+    margin: 0;
+}
