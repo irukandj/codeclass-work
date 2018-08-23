@@ -324,7 +324,6 @@ nav.white #nav-icon span {
     top: 50%;
     transform: translateY(-50%);
     text-align: center;
-    opacity: 1;
 }
 
 @media (min-width: 992px){
